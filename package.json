@@ -4,12 +4,22 @@
   "description": "Curso numero 2 Nodejs",
   "main": "src/index.js",
   "scripts": {
-    "start":"node src/index.js",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Luciano Pantillon",
   "license": "MIT",
   "dependencies": {
-    "countries-list": "^2.5.4"
+    "-": "0.0.1",
+    "D": "^1.0.0",
+    "countries-list": "^2.5.4",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "nodemon": "^2.0.3"
   }
 }
